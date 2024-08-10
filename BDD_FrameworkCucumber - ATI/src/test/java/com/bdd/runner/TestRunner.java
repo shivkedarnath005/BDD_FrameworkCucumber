@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
        plugin={"pretty", "html:./Reports/HTMLReports/cucumber.html", 
     		  "json:./Reports/JSONReports/cucumber.json", 
     		  "junit:./Reports/JUNITReports/cucumber.xml"}, 
-    		  monochrome=true)
+    		  monochrome=true, dryRun=false )
 
 public class TestRunner
 {
