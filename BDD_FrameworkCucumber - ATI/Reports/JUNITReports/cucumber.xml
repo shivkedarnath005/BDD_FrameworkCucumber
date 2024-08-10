@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.261" tests="4" skipped="0" failures="4" errors="0">
+<testcase classname="Demo1 features" name="Validation of chapter one link" time="0.064">
+<failure/>
+<system-out><![CDATA[
+Given User navigates to the application.....................................undefined
+When User click on chapter1 link............................................skipped
+Then Verify if the text is displayed correctly..............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Login with correct credential - #1.1" time="0.004">
+<failure/>
+<system-out><![CDATA[
+Given user open the demoblaze home page.....................................undefined
+And click on the "Log in" window link.......................................skipped
+When user enter the user name in the username textbox.......................skipped
+And user enter the password in the password textbox.........................skipped
+And click on login button...................................................skipped
+Then home page should open..................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login" time="0.002">
+<failure/>
+<system-out><![CDATA[
+Given user is on the login page.............................................passed
+When user enters username and password......................................passed
+And click on the login button...............................................undefined
+Then user should land on home page..........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login1" time="0.006">
+<failure/>
+<system-out><![CDATA[
+Given user is on the login page.............................................passed
+When user enters username and password......................................passed
+And click on the login button...............................................undefined
+Then user should land on home page..........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
